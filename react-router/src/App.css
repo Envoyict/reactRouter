@@ -1,0 +1,37 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  list-style:none;
+  background: black;
+
+}
+
+ul{
+  display: flex; 
+  list-style: none;
+
+}
+li a{ margin-right: 0px;
+text-decoration: none;
+}
+main{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.sidebar{
+content: "";
+  width:35%;
+  height: 100vh;
+  background: yellowgreen;
+  position:absolute;
+  margin-top: 0px;
+  right: 0px;
+  padding: 10px;
+
+}
+
+h4{
+  border-bottom: 0.5px solid red;
+}
